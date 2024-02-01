@@ -92,24 +92,28 @@ Para optimizar el rendimiento de algoritmos de ordenación, se pueden aplicar di
 ### Experimento 1
 
 Se creó un nuevo archivo, `ordenamientoUno.cpp`, que contenía funciones de algoritmos de ordenación, y se midió el tiempo de ejecución de cada algoritmo durante 30 ciclos. A continuación, se presentan las gráficas del tiempo promedio de cada algoritmo y su desviación estándar.
+![image](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-brizavda/assets/141947806/a4a6b5fa-6db9-479d-ae91-5bcd8cb892ab)
+Desviación Estandar
+![image](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-brizavda/assets/141947806/43fecc83-5043-4d90-b9ee-991180c8e544)
+
 
 En este experimento, se utilizaron algoritmos con enfoque recursivo. Al principio, las ejecuciones no mostraron problemas con la cantidad de números, pero al llegar al medio millón (500,000), el código comenzó a experimentar tiempos excesivos. En la última ejecución con medio millón de números, el código se detuvo después de 3 horas y 27 minutos sin producir resultados.
 
 ### Experimento 2
 
-Se realizaron modificaciones en el archivo anterior, cambiando la recursividad de los algoritmos por bucles iterativos, y se midió el tiempo de ejecución de los 5 algoritmos en 30 ciclos. A continuación, se presentan los tiempos promedios y sus desviaciones estándar.
-
+Se realizaron modificaciones en el archivo anterior, cambiando la recursividad de los algoritmos por bucles iterativos, y se midió el tiempo de ejecución de los 5 algoritmos en 30 ciclos. 
 En este experimento, se intentó mejorar la eficiencia de los algoritmos al convertirlos en formas iterativas para reducir el tiempo de ejecución. Sin embargo, surgieron problemas al trabajar con cifras como medio millón, y se decidió limitar este experimento hasta esa cifra. Se observó que Bubble Sort, Insertion Sort y Selection Sort eran los algoritmos más lentos, lo que motivó el siguiente experimento.
 
 ### Experimento 3
 
-Se utilizó el archivo `ordenamiento_rec_t.cpp` y se comparó con `ordenamiento_t.cpp` para evaluar los tiempos de ejecución. A continuación, se presentan los resultados de ejecutar únicamente `ordenamiento_rec_t.cpp`.
-
+Se utilizó el archivo `ordenamiento_rec_t.cpp` y se comparó con `ordenamiento_t.cpp` para evaluar los tiempos de ejecución.
 Este experimento reveló que tanto Merge Sort como Quick Sort son opciones superiores para arreglos grandes en comparación con Bubble Sort, Insertion Sort y Selection Sort.
 
 ### Experimento 4
 
 Se creó un nuevo documento, `ordenamientoDos.cpp`, para realizar la prueba del punto extra, donde se combinaron Merge Sort e Insertion Sort. A continuación, se presentan los resultados del tiempo promedio y la desviación estándar.
+![image](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-brizavda/assets/141947806/8e09a51b-759d-448a-ad1f-c0e31afffd33)
+
 
 Este experimento representó una mejora significativa en el tiempo de ejecución en comparación con todos los demás algoritmos al combinar estratégicamente los algoritmos se logro utilizar la eficiencia de Insertion Sort para sublistas pequeñas, igualmente, la estructura recursiva de Merge Sort permite dividir el problema de ordenar una lista en problemas más pequeños, facilitando la implementación y el entendimiento del algoritmo.
 
