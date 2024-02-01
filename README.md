@@ -126,6 +126,10 @@ Este experimento representó una mejora significativa en el tiempo de ejecución
 
 **Conclusión**
 
+En la selección del algoritmo de ordenación, es esencial comprender las características específicas del problema, el tamaño del conjunto de datos y los requisitos de rendimiento. Algoritmos como Merge Sort y Quick Sort son ideales para arreglos grandes, mientras que Insertion Sort, Selection Sort y Bubble Sort son más apropiados para tareas más simples o conjuntos de datos pequeños. La elección debe basarse en un equilibrio entre complejidad temporal, estabilidad y eficiencia en el uso de memoria. Además, es crucial evaluar estrategias de optimización para mejorar el rendimiento en situaciones específicas. La comparación proporcionada resalta las diferencias clave entre los algoritmos, guiando la elección del más adecuado según las necesidades del proyecto.
+
 Los experimentos proporcionaron valiosa información sobre el rendimiento de diversos algoritmos de ordenación. Se observó que las implementaciones recursivas presentaron desafíos en términos de tiempo de ejecución, especialmente para conjuntos de datos más grandes. La transición a enfoques iterativos fue un intento de mitigar estos problemas, aunque se encontraron limitaciones en cifras considerables.
 
 La comparación entre Merge Sort, Quick Sort y los algoritmos más simples resaltó la eficiencia de los primeros para conjuntos de datos extensos. La combinación de Merge Sort e Insertion Sort en el último experimento demostró ser una estrategia efectiva para mejorar el rendimiento, sugiriendo posibles enfoques híbridos para la optimización de algoritmos de ordenación. Estos resultados respaldan la importancia de seleccionar y adaptar algoritmos según las características específicas del problema y las limitaciones del entorno de ejecución.
+
+PD https://www.instagram.com/reel/Cz1N4WfPaDA/?igsh=Y3EwN21hNzd4Mjhx este video me ayudo a entender los experimentos.
