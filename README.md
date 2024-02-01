@@ -93,9 +93,9 @@ Para optimizar el rendimiento de algoritmos de ordenación, se pueden aplicar di
 
 Se creó un nuevo archivo, `ordenamientoUno.cpp`, que contenía funciones de algoritmos de ordenación, y se midió el tiempo de ejecución de cada algoritmo durante 30 ciclos. A continuación, se presentan las gráficas del tiempo promedio de cada algoritmo y su desviación estándar.
 ![image](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-brizavda/assets/141947806/a4a6b5fa-6db9-479d-ae91-5bcd8cb892ab)
+
 Desviación Estandar
 ![image](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-brizavda/assets/141947806/43fecc83-5043-4d90-b9ee-991180c8e544)
-
 
 En este experimento, se utilizaron algoritmos con enfoque recursivo. Al principio, las ejecuciones no mostraron problemas con la cantidad de números, pero al llegar al medio millón (500,000), el código comenzó a experimentar tiempos excesivos. En la última ejecución con medio millón de números, el código se detuvo después de 3 horas y 27 minutos sin producir resultados.
 
@@ -113,6 +113,7 @@ Este experimento reveló que tanto Merge Sort como Quick Sort son opciones super
 
 Se creó un nuevo documento, `ordenamientoDos.cpp`, para realizar la prueba del punto extra, donde se combinaron Merge Sort e Insertion Sort. A continuación, se presentan los resultados del tiempo promedio y la desviación estándar.
 ![image](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-brizavda/assets/141947806/8e09a51b-759d-448a-ad1f-c0e31afffd33)
+
 Desviación estandar
 ![image](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-brizavda/assets/141947806/16ea8fff-8d22-4760-9a2b-8da45624cd76)
 
