@@ -113,6 +113,8 @@ Este experimento reveló que tanto Merge Sort como Quick Sort son opciones super
 
 Se creó un nuevo documento, `ordenamientoDos.cpp`, para realizar la prueba del punto extra, donde se combinaron Merge Sort e Insertion Sort. A continuación, se presentan los resultados del tiempo promedio y la desviación estándar.
 ![image](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-brizavda/assets/141947806/8e09a51b-759d-448a-ad1f-c0e31afffd33)
+Desviación estandar
+![image](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-brizavda/assets/141947806/16ea8fff-8d22-4760-9a2b-8da45624cd76)
 
 
 Este experimento representó una mejora significativa en el tiempo de ejecución en comparación con todos los demás algoritmos al combinar estratégicamente los algoritmos se logro utilizar la eficiencia de Insertion Sort para sublistas pequeñas, igualmente, la estructura recursiva de Merge Sort permite dividir el problema de ordenar una lista en problemas más pequeños, facilitando la implementación y el entendimiento del algoritmo.
